@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /styleguide.html
+Disallow: /thanks.html
+Disallow: /send.php
+
+Sitemap: https://www.extera.co.uk/sitemap.xml
