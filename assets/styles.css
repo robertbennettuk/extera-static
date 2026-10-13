@@ -141,7 +141,7 @@ p { margin: 0 0 var(--s2); text-wrap: pretty; }
 .menu-toggle { margin-left: auto; display: none; background: var(--surface); border: 1px solid var(--line); border-radius: var(--r-pill); padding: 0 20px; font: 600 var(--fs-small) var(--font-head); color: var(--ink); cursor: pointer; min-height: 44px; }
 
 /* 4. Hero */
-.hero { position: relative; isolation: isolate; color: #fff; background: var(--brand-900) url("hero-london.jpg") center 40%/cover; padding: clamp(36px, 4.4vw, 64px) 0; }
+.hero { position: relative; isolation: isolate; color: #fff; background: var(--brand-900) url("hero-london.webp") center 40%/cover; padding: clamp(36px, 4.4vw, 64px) 0; }
 .hero::before { content: ""; position: absolute; inset: 0; z-index: -1; background: linear-gradient(100deg, rgba(11,42,69,.94) 0%, rgba(11,42,69,.78) 45%, rgba(11,42,69,.35) 100%); }
 .hero h1 { font-size: clamp(2rem, 1.2rem + 2.8vw, 3.25rem); font-weight: 600; color: #fff; max-width: 34ch; letter-spacing: -.02em; }
 .hero h1 b { font-weight: 700; color: inherit; }
@@ -558,3 +558,7 @@ h2[id] { scroll-margin-top: 92px; }
 .legal h2{font-size:1.375rem;margin:32px 0 8px}
 .legal ul{padding-left:20px;margin:8px 0 16px}
 .legal li{margin-bottom:8px}
+
+/* See-also links */
+.related-links{list-style:none;margin:8px 0 0;padding:0;display:grid;gap:8px 32px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+.related-links a{font-weight:600}
